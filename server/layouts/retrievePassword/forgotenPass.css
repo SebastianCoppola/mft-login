@@ -1,0 +1,69 @@
+:root{
+    --color1: #ffff;
+    --color3: #757373;
+    --color4: #0073d1;
+    --color5: #d3d0d0;
+    --color6: #313131;
+    --color7: #924949;
+    --color-today: #aac8e9;
+    --color-tomorrow: #fdc393;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.mail{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.mail-section{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.header{
+    margin: 30px 0 20px 0; 
+}
+.logo h1{
+    background-color: #0073d1;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 1px 1px 5px #313131;
+}
+.body{
+    margin: 30px 0;
+    flex-direction: column;
+}
+.body h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #313131;
+    margin: 10px 0 10px 0;
+}
+.p1{
+    color: #313131;
+    margin: 10px 0 30px 0;
+}
+.body h4{
+    color: #0073d1;
+}
+.p2{
+    color: #313131;
+    margin: 30px 0 10px 0;
+}
+.footer{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
