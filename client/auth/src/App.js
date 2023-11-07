@@ -23,6 +23,7 @@ const App = ({history, onLogIn}) => {
 
     //console.log("hi")
     //console.log("hi")
+    //console.log("hi")
 
     return (
         <StylesProvider generateClassName={generateClassName}>

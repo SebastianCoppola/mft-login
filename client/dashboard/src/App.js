@@ -10,6 +10,7 @@ const App = ({ onLogOut }) => {
 
     //console.log("hi")
     //console.log("hi")
+    //console.log("hi")
 
     const handleLogOut = () => {
         if(onLogOut) onLogOut()

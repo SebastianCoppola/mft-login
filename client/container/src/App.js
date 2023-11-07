@@ -21,6 +21,7 @@ const App = () => {
 
     //console.log("hi")
     //console.log("hi")
+    //console.log("hi")
 
     useEffect(()=>{
         setIsLoged( getCookie('token') ? true : false )
