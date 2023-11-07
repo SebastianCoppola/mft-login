@@ -21,6 +21,8 @@ const App = ({history, onLogIn}) => {
     const [loading, setLoading] = useState(false)
     const [request, setRequest] = useState({mail: '', password: '', name: '', surname: ''})  
 
+    //console.log("hi")
+
     return (
         <StylesProvider generateClassName={generateClassName}>
             <Grid container justifyContent='center' alignItems='center' style={{marginTop:'100px'}}>

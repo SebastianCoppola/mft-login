@@ -8,6 +8,8 @@ const App = ({ onLogOut }) => {
 
     const [snackbar, setSnackbar] = useState({open: false, message: '', severity: ''})
 
+    //console.log("hi")
+
     const handleLogOut = () => {
         if(onLogOut) onLogOut()
     }
