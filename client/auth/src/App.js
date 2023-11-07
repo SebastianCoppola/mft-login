@@ -22,6 +22,7 @@ const App = ({history, onLogIn}) => {
     const [request, setRequest] = useState({mail: '', password: '', name: '', surname: ''})  
 
     //console.log("hi")
+    //console.log("hi")
 
     return (
         <StylesProvider generateClassName={generateClassName}>

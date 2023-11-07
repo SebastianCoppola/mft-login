@@ -19,6 +19,9 @@ const App = () => {
     const [loading, setLoading] = useState(true)
     const [isLoged, setIsLoged] = useState(false)
 
+    //console.log("hi")
+    //console.log("hi")
+
     useEffect(()=>{
         setIsLoged( getCookie('token') ? true : false )
         setLoading(false)
