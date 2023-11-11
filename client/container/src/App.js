@@ -21,7 +21,7 @@ const App = () => {
 
     //console.log("hi")
     //console.log("hi")
-    //console.log("hi")
+    console.log("hi from container App.js")
 
     useEffect(()=>{
         setIsLoged( getCookie('token') ? true : false )

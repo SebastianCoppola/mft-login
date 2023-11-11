@@ -10,7 +10,7 @@ const App = ({ onLogOut }) => {
 
     //console.log("hi")
     //console.log("hi")
-    //console.log("hi")
+    console.log("hi from dashboard App.js")
 
     const handleLogOut = () => {
         if(onLogOut) onLogOut()
