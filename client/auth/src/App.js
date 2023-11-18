@@ -21,8 +21,8 @@ const App = ({history, onLogIn}) => {
     const [loading, setLoading] = useState(false)
     const [request, setRequest] = useState({mail: '', password: '', name: '', surname: ''})  
 
-    console.log("hi from auth App.js")
     //console.log("hi")
+    console.log("hi from auth App.js")
     //console.log("hi")
 
     return (
