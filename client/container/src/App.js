@@ -19,9 +19,7 @@ const App = () => {
     const [loading, setLoading] = useState(true)
     const [isLoged, setIsLoged] = useState(false)
 
-    //console.log("hi")
-    console.log("hi from container App.js")
-    //console.log("hi")
+    console.log("Hello World from Container App.js")
 
     useEffect(()=>{
         setIsLoged( getCookie('token') ? true : false )

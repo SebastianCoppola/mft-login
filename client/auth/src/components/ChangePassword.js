@@ -35,8 +35,6 @@ const ChangePassword = (props) => {
         }
     }, [])
         
-    console.log(request)
-
     const handleSubmit = () => {
         if(request.password === repeatedPassword){
             editPassword()
